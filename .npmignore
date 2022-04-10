@@ -1,5 +1,7 @@
+.github/
+.husky/
+.idea/
 .husky
-src/
 tests/
 
 .eslintignore
@@ -8,6 +10,7 @@ tests/
 .node-version
 .prettierignore
 .prettierrc
+.npmrc
 CHANGELOG.md
 jest.config.js
 LICENSE
