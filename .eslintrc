@@ -5,7 +5,9 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "prettier"
   ],
-  "plugins": ["@typescript-eslint"],
+  "plugins": [
+    "@typescript-eslint"
+  ],
   "parser": "@typescript-eslint/parser",
   "env": {
     "browser": true,
@@ -27,12 +29,25 @@
       }
     ],
     "@typescript-eslint/no-var-requires": "off",
-    "object-shorthand": ["error", "properties"],
-    "no-console": ["error", { "allow": ["warn", "error"] }]
+    "object-shorthand": [
+      "error",
+      "properties"
+    ],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ]
   },
   "overrides": [
     {
-      "files": ["*.test.ts"],
+      "files": [
+        "*.test.ts"
+      ],
       "rules": {
         "max-lines": "off",
         "no-console": "off"
