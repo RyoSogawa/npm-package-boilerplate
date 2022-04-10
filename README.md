@@ -36,6 +36,7 @@ https://github.com/hebertcisco/ts-npm-package-boilerplate
 # Template
 <!--[![npm version](https://badge.fury.io/js/<PACKAGE_NAME>.svg)](http://badge.fury.io/js/<PACKAGE_NAME>)-->
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 ## Installation
 Install from npm:
