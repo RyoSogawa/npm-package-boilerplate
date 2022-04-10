@@ -4,9 +4,14 @@
   "author": "RyoSogawa",
   "version": "0.1.0",
   "license": "MIT",
-  "repository": "https://github.com/RyoSogawa/npm-package-boilerplate.git",
-  "bugs": "https://github.com/RyoSogawa/npm-package-boilerplate/issues",
-  "homepage": "https://sgw-blog.vercel.app/",
+    "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RyoSogawa/XXXX.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RyoSogawa/XXXX/issues"
+  },
+  "homepage": "https://github.com/RyoSogawa/XXXX",
   "keywords": [
     "boilerplate",
     "typescript"
