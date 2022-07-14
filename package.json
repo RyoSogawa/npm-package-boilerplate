@@ -16,13 +16,16 @@
     "boilerplate",
     "typescript"
   ],
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "source": "./src/index.ts",
+  "main": "./lib/index.js",
+  "module": "./lib/index.module.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "prebuild": "rimraf ./lib",
+    "build": "microbundle --no-sourcemap --compress --tsconfig ./tsconfig.build.json",
     "format": "prettier --write \"src/**/*.(js|ts|jsx|tsx)\"",
     "lint": "eslint src",
     "lint:fix": "yarn lint --fix",
@@ -43,8 +46,10 @@
     "eslint-plugin-import": "^2.26.0",
     "husky": "^7.0.0",
     "lint-staged": "^12.3.3",
+    "microbundle": "^0.15.0",
     "node-notifier": "^10.0.0",
     "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
     "typescript": "^4.5.4",
     "vitest": "^0.18.0"
   },

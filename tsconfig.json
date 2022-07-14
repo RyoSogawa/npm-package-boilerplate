@@ -10,7 +10,7 @@
     "newLine": "lf",
     "outDir": "lib",
     "allowJs": true,
-    "rootDir": "src",
+    "rootDir": "/",
     "lib": [
       "es2021"
     ],
