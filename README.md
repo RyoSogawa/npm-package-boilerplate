@@ -6,9 +6,9 @@ A simple boilerplate for npm package with TypeScript.
 - Node.js 16.13.0
 - TypeScript 4.5.4
 - eslint
+  - config-airbnb-base 
 - prettier
-- jest
-  - @swc/jest
+- vitest
 
 
 ## Getting started
