@@ -12,6 +12,7 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
+    'react/jsx-filename-extension': 'off',
     '@typescript-eslint/consistent-type-imports': [
       'error',
       { prefer: 'type-imports' },
