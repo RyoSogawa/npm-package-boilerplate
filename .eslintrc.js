@@ -13,10 +13,7 @@ module.exports = {
   },
   rules: {
     'react/jsx-filename-extension': 'off',
-    '@typescript-eslint/consistent-type-imports': [
-      'error',
-      { prefer: 'type-imports' },
-    ],
+    '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }],
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/space-before-blocks': 'off',
@@ -48,7 +45,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': 'off',
   },
-  ignorePatterns: ['.eslintrc.*', 'vitest.config.*'],
   overrides: [
     {
       files: ['*.test.ts', '*.test.tsx'],
@@ -63,4 +59,4 @@ module.exports = {
       },
     },
   ],
-}
+};
